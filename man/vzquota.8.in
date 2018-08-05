@@ -187,7 +187,7 @@ Set special relative path to \fIquota_file\fR. If this option is specified,
 quota file location will depends on path to quota accounting dir: if your quota
 accounting path is /path/to/\fIsomewhere\fR/ than quota file will be
 /path/to/quota.\fIsomewhere\fR. If this option is not specified, quota file
-location is /var/vzquota/quota.\fIquota_id\fP. All commands accept this
+location is /var/lib/vzquota/quota.\fIquota_id\fP. All commands accept this
 option.
 .TP
 .BI \-c\  quota_file

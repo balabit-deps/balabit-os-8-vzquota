@@ -1,0 +1,62 @@
+This package was debianized by Ola Lundqvist <opal@debian.org> on
+Tue, 25 Apr 2006 21:38:05 +0200.
+
+It was downloaded from:
+	http://download.openvz.org/utils/vzquota/
+	http://www.openvz.org/
+
+All files except for the one listed below have the following copyright
+and license:
+
+  Copyright (C) 2000-2008, Parallels, Inc. All rights reserved.
+
+  This program is free software; you may redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2, or (at your option)
+  any later version.
+
+  This is distributed in the hope that it will be useful, but without
+  any warranty; without even the implied warranty of merchantability or
+  fitness for a particular purpose. See the GNU General Public License
+  for more details.
+
+  A copy of the GNU General Public License is available as
+  /usr/share/common-licenses/GPL in the Debian GNU/Linux distribution or on the
+  World Wide Web at http://www.gnu.org/copyleft/gpl.html.  You can also
+  obtain it by writing to the Free Software Foundation, Inc., 51 Franklin St,
+  Fifth Floor, Boston, MA 02110-1301, USA.
+
+
+
+
+include/linux/quota.h have different copyright and license:
+
+  Copyright (c) 1982, 1986 Regents of the University of California.
+  All rights reserved.
+
+  This code is derived from software contributed to Berkeley by
+  Robert Elz at The University of Melbourne.
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+  1. Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in the
+     documentation and/or other materials provided with the distribution.
+  3. Neither the name of the University nor the names of its contributors
+     may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+  ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+  FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+  OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+  HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+  SUCH DAMAGE.

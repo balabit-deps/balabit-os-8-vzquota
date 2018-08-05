@@ -1,0 +1,2 @@
+version=3
+http://download.openvz.org/utils/vzquota/(\d.*)/src/vzquota-(\d.*)\.(?:tgz|tbz2|txz|tar\.(?:gz|bz2|xz))

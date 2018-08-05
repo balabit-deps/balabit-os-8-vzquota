@@ -196,7 +196,7 @@ void print_ugid_status(struct qf_data *qd)
 			if (dq->obj.flags & UGID_LOADED)
 				sprintf(status, "loaded");
 			if (dq->obj.flags & UGID_DIRTY)
-				sprintf(status, "%s%sdirty", status, (strlen(status)) ? "," : "");
+				strcat(status, strlen(status) ? ",dirty" : "dirty");
 		}
 
 		/* blocks */

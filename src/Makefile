@@ -18,11 +18,11 @@
 INSTALL = install
 PREFIX = /usr
 SBINDIR = ${PREFIX}/sbin
-VARDIR = /var
+VARDIR = /var/lib
 
 #DEBUG = -D_DEBUG -g3 -ggdb3 -p -pg
 CFLAGS += -pipe -I../include -std=gnu99 \
-	-g -Wall -Werror -Wformat -D_FILE_OFFSET_BITS=64 \
+	-g -O2 -Wall -Werror -Wformat -D_FILE_OFFSET_BITS=64 \
 	-D_LINUX_QUOTA_VERSION=6 -D_LARGEFILE64_SOURCE \
 	-DVARDIR=\"$(VARDIR)\" $(DEBUG)
 # We need -m64 for ppc64 in order to get proper ioctls
@@ -53,7 +53,7 @@ depend: $(OBJS:.o=.c)
 
 install: $(PROGS)
 	$(INSTALL) -d $(DESTDIR)$(SBINDIR)
-	$(INSTALL) -d $(DESTDIR)$(MANDIR)/man8
+	#$(INSTALL) -d $(DESTDIR)$(MANDIR)/man8
 	$(INSTALL) -d $(DESTDIR)$(VARDIR)/vzquota
 	for file in $(PROGS); do \
 		$(INSTALL) -m 755 $$file $(DESTDIR)$(SBINDIR)/$$file; \
